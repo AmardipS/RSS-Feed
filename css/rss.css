@@ -1,0 +1,61 @@
+body{
+
+}
+
+@media (min-width: 600px){
+
+	body{
+		background-color: white;
+	}
+}
+
+
+
+.news-container{
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 1em;
+    cursor: pointer;
+}
+/*
+@media (min-width: 600px){
+
+	.news-container{
+		display: inline-block;
+		width: 200px;
+	}
+}
+*/
+.news-container:hover{
+	outline: 3px solid black;
+}
+
+.news-content{
+	
+}
+
+.news-timestamp{
+	color: white;
+}
+
+.news-link a{
+	color: white;
+	padding-bottom: 1em;
+}
+
+.news-title{
+	font-family: sans-serif;
+}
+
+.news-text{
+	font-family: 
+}
+
+.news-img img{
+	width: 100%;
+}
+
+
+.hidden{
+	display: none;
+}

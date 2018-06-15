@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<h1>Klik dog pa knappen!</h1>
+	<button id="knap">Klik mig</button>
+	<div id="resultat"></div>
+
+	<script type="text/javascript">
+		var knap = document.getElementById("knap");
+		knap.addEventListener("click", funtion(e){
+			var dato = new Date();
+			console.log(dato);
+		});
+	</script>
+</body>
+</html>

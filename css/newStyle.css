@@ -1,0 +1,66 @@
+.logo{
+	font-family: 'Faster One', cursive;
+	font-size: 80px;
+}
+.tagLine{
+	font-family: 'Bad Script', cursive;
+}
+.nav{
+	margin-bottom: 20px;
+}
+.date{								/* News Published Date */
+	font-size: 11px;
+	margin-top: 5px;
+}
+.text{								/* News body description inside Card-body*/
+	font-size: 13px;
+}
+/* Small device */
+@media (min-width: 576px) {
+	body{
+		background-color: ;
+	}
+	.card{
+		margin: 5px;
+	}
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+    }
+}
+/* Medium device */
+@media (min-width: 768px) {
+	body{
+		background-color: ;
+	}
+
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+/* Large device */
+@media (min-width: 992px) {
+	body{
+		background-color: ;
+	}
+    .card-columns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+/* Xtra large device */
+@media (min-width: 1200px) {
+	body{
+		background-color: ;
+	}
+    .card-columns {
+        -webkit-column-count: 5;	/* Compatibility for Chrome, Safari, Opera */
+        -moz-column-count: 5;		/* Compatibility for Firefox */
+        column-count: 5;
+	}
+}
+
